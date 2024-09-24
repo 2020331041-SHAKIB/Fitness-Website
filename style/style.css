@@ -51,8 +51,9 @@ nav ul{
 
 .navh1{
     color: rgb(230, 83, 60);
-    font-size: 36px;
+    font-size: 3.3rem;
     font-weight: 800;
+    font-style: italic;
 }
 .but1,.p1btn1,.p1btn2,.runbtn{
     border-radius: 46px;
@@ -88,7 +89,7 @@ nav ul{
 }
 .p1h1{
     color: rgb(255, 255, 255);
-    font-size: 78px;
+    font-size: 4.8rem;
     font-weight: 900;
     line-height: 120%;
     margin-bottom: 24px;
@@ -268,6 +269,7 @@ nav ul{
     letter-spacing: 0%;
 }
 .runp{
+    width: 450px;
     color: rgba(255, 255, 255, 0.5);
     font-family: Inter;
     font-size: 1rem;
@@ -275,6 +277,9 @@ nav ul{
     line-height: 24px;
     letter-spacing: 0.3px;
     margin-top: 15px;
+}
+.runtextdiv{
+
 }
 /* .trainings{
     margin-top: 110px;
@@ -352,7 +357,7 @@ nav ul{
 .bmip{
     margin-top: 13px;
     color: rgba(255, 255, 255, 0.5);
-    font-size: 14px;
+    font-size: 1.3rem;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.3px;
@@ -596,4 +601,97 @@ select.input-box {
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.3px;
+}
+
+
+@media screen and (max-width: 576px){
+    body{
+        background-color: rgb(23, 21, 21);
+        margin-left: 20px ;
+        margin-right: 20px; 
+    }
+    nav ul{
+        display: none;   
+    }
+    .page1{
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .exter1{
+        height: auto;
+        margin-left: 4px;
+        margin-top: -350px;
+    }
+    .exter2{
+        height: auto;
+        margin-left: 253px;
+        margin-top: -289px;
+    }
+    .cardcontainer{
+        margin-top: 54px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+     }
+     .runpage{
+        margin-top: 130px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        
+    }
+    .runp{
+        width: auto;
+    }
+    .runtextdiv{
+        padding: 10px;
+    }
+    .bmicontainer{
+        flex-direction: column;
+        margin-left: -20px;
+        margin-right: -20px;
+        gap: 30px;
+    }
+    .bmisection{
+        margin-left: auto;
+    }
+    .bmitable,.bmicalc{
+        margin: 0px ;
+    }
+    .bmitable{
+        margin-left: 0px ;
+    }
+    .bmicalc{
+        margin-right: 0px;
+    }
+    .bmitable{
+        margin-left: -180px ;
+    }
+    .teamimgcontainer{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+        padding: 40px;
+    }
+    .footercontainer{
+        flex-direction: column;
+        padding: 0px;
+        margin: 0px;
+    }
+    .footerclass{
+        margin-left:-120px;
+        margin-right:-20px;
+    }
+    .footerbox1{
+        padding: 0px;
+        margin-bottom: 30px;
+    }
+    .footerbox2,.footerbox3{
+        margin-right: 220px;
+    }
+    .lastfooter{
+        text-align: left;
+    }
 }
