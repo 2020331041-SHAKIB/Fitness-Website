@@ -1,0 +1,599 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/miama');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Inter,sans-serif;
+}
+body{
+    background-color: rgb(23, 21, 21);
+    margin-left: 190px ;
+    /* margin-top: 57px; */
+    margin-right: 190px;
+    
+}
+/* header */
+
+
+.navvar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:#FFFFFF;
+    /* margin-left: 190px ;
+    margin-top: 57px;
+    margin-right: 190px; */
+    margin-top: 57px;
+}
+nav ul li a,nav ul li{
+    text-decoration: none;
+    list-style: none;
+    color:#FFFFFF;
+    font-size: 1rem;
+    font-weight: 600;
+    /* font-size: 30px;
+    font-weight: 600; */
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2.5rem;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+    /* padding:  4px; */
+    padding: 4px 20px 4px 4px;
+    
+}
+
+.navh1{
+    color: rgb(230, 83, 60);
+    font-size: 36px;
+    font-weight: 800;
+}
+.but1,.p1btn1,.p1btn2,.runbtn{
+    border-radius: 46px;
+    background: rgb(230, 83, 60);
+    padding: 8px 20px 8px 20px;
+    border: none;
+    color:#FFFFFF;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+.p1btn1,.p1btn2,.runbtn{
+    margin-top: 28px;
+    padding: 13px 40px 13px 40px;
+    width: 224px;
+    cursor: pointer;
+}
+.p1btn2{
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 42px;
+    background-color: rgb(33, 32, 32);
+
+}
+.btncontainer{
+    display: flex;
+    gap: 16px;
+}
+.page1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.p1h1{
+    color: rgb(255, 255, 255);
+    font-size: 78px;
+    font-weight: 900;
+    line-height: 120%;
+    margin-bottom: 24px;
+}
+.h1span{
+    font-family: 'Miama', sans-serif;
+    font-weight: 400;
+    Font-size: 148px;
+    letter-spacing: 0%;
+    /* Align: Align left; */                                          
+}
+.p1p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: left;
+}
+.p1img{
+    margin-top: 35px;
+}
+.exter1{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 12px;
+    align-items: center;
+    padding: 23px;
+    width: 200px;
+    height: 90px;
+    margin-left: 694px;
+    margin-top: -160px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(5px);
+    background: rgba(48, 48, 48, 0.54);
+}
+.exter2{
+    width: 203px;
+    height: 104px;
+    margin-left: 1023px;
+    margin-top: -399px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    padding: 22px 17px 20px 30px;
+}
+.ellipse{
+    width: 40px;  
+    height: 40px;
+    background: rgb(230, 83, 60);
+    border-radius: 50%; 
+}
+.extrah1{
+    color: rgb(250, 250, 249);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: left;
+}
+.extrap{
+    color: rgba(239, 237, 232, 0.65);
+    /* font-size: 13px; */
+    /* font-weight: 400;
+    line-height: 24px; */
+    /* letter-spacing: 0.5px;
+    text-align: left; */
+    margin-top: 10px;
+}
+.extrah2{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 40px;
+    letter-spacing: 1px;
+    text-align: left;
+}
+.extrap2{
+    color: rgba(255, 255, 255, 0.65);
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: 5px;
+    letter-spacing: 1px;
+    text-align: left;
+}
+/* main{
+    margin-top: 505px;
+    
+} */
+ .habits{
+    margin-top: 480px;
+    text-align: center;
+    
+ }
+ .habitsh1{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    
+ }
+ .habitsp{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: center;
+    margin-top: 14px;
+ }
+ .cardcontainer{
+    margin-top: 54px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+ }
+.cardimg{
+    border-radius: 50%;
+}
+.card1,.card2,.card3,.card4{
+    text-align: center;
+}
+.cardp{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.3px;
+    text-align: center;
+    margin-top: 6px;
+}
+.cardh2{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: 0%;
+    margin-top: 23px;
+}
+.runpage{
+    margin-top: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);  
+    padding: 41px 58px;  
+    
+}
+.runimg{
+    width: 366px;
+    height: 312px;
+    border-radius: 18px;
+
+}
+.runh1{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 3.2rem;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+}
+.runp{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    margin-top: 15px;
+}
+/* .trainings{
+    margin-top: 110px;
+}
+.trainingsh1{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.trainingsp{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: left;
+    margin-top: 12px;
+}
+.trainingscardcontainer{
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 0px;
+    
+}
+.trainingscardimg1{
+    width: 288px;
+    height: 214px;
+    background: rgba(6, 255, 210, 0.5);
+}
+.trainingscardimg2{
+    width: 529px;
+    height: 214px;
+}
+.trainingscardimg3{
+    width: 318px;
+    height: 214px;
+}
+.trainingscardimg4{
+    width: 445px;
+    height: 214px;
+}
+.trainingscardimg5{
+    width: 314px;
+    height: 214px;
+}
+.trainingscardimg6{
+    width: 376px;
+    height: 214px;
+}
+.trainingscardcontainer1{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);    
+}
+ */
+
+
+.bmisection{
+    margin-top: 120px;
+    margin-left: 200px;
+}
+.bmih1{
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.bmip{
+    margin-top: 13px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: left;
+}
+.bmicontainer{
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(34, 34, 34);
+    margin-left: -190px ;
+    /* margin-top: 57px; */
+    margin-right: -190px;
+    padding: 60px;
+    
+}
+.bmitable{
+    margin-left: 190px ;
+}
+.bmicalc{
+    margin-right: 190px;
+}
+.tabletitle,.caltitle{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 1.6rem;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.bmichart{
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+.bmitabletitle{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 10px;
+}
+.bmitablerow{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 10px;
+}
+.calcp{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.form-container {
+    /* background-color: #1c1c1c; */
+    /* padding: 20px; */
+    border-radius: 15px;
+    /* width: 300px; */
+    margin-top: 20px ;
+}
+
+.input-row {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
+.input-box:last-child {
+    grid-column: span 2;
+}
+.input-box{
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 12px;
+    border: none; 
+    color: rgba(255, 255, 255, 0.6);
+    outline: none;
+    font-size: 0.9rem;
+}
+.input-box::placeholder {
+    color: rgba(255, 255, 255, 0.6); 
+    font-size: 0.9rem; 
+}
+
+.input-box::placeholder {
+    color: rgba(255, 255, 255, 0.6); 
+}
+select.input-box {
+    background: rgba(73, 73, 73, 0.8); 
+    color: rgba(255, 255, 255, 0.6); 
+}
+.calculate-btn {
+    background-color: #ff5733;
+    border: none;
+    border-radius: 45px;
+    padding: 12px;
+    color: white;
+    font-size: 1.1rem;
+    cursor: pointer;
+    width: 224px;
+    margin-top: 19px;
+}
+.teamdescription{
+    margin-top: 70px;
+    align-items: center;
+    text-align: center;
+}
+.teamh1{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+}
+.teamp{
+    margin-top: 10px;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: center;
+}
+
+.teamimgcontainer {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px; 
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 25px;
+}
+
+.teamimgdiv {
+    position: relative;
+}
+.teamimg {
+    width: 100%;
+    height: 272px;
+    border-radius: 8px;
+}
+
+.teamimgtitle {
+    position: absolute; 
+    bottom: 10px; 
+    left: 10px; 
+    color: white; 
+    background: none; 
+    padding: 5px;
+    border-radius: 5px; 
+}
+
+.teamimgtitleh3{
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/* footer */
+.footerclass{
+    margin-top: 100px;
+    background: rgba(255, 255, 255, 0.1);
+    margin-left: -120px;
+    margin-right: -190px;
+    padding:46px 130px;
+}
+
+
+.footercontainer{
+    /* margin-top: 150px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.footerbox1h1{
+    color: rgb(230, 83, 60);
+    font-family: Inter;
+    font-size: 4.4rem;
+    font-weight: 800;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    font-style: italic;
+}
+.footerbox1p{
+    margin-top: 15px;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: left;
+}
+.footerbox2h1,.footerbox3h1{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.footerbox2h6{
+    margin-top: 10px;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 1.2rem;
+    font-weight: 200;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    cursor: pointer;   
+}
+.borderbox{
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+.lastfooter{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+}
