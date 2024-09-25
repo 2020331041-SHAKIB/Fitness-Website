@@ -80,7 +80,7 @@ nav ul{
 }
 .btncontainer{
     display: flex;
-    gap: 16px;
+    gap: 1rem;
 }
 .page1{
     display: flex;
@@ -97,7 +97,7 @@ nav ul{
 .h1span{
     font-family: 'Miama', sans-serif;
     font-weight: 400;
-    Font-size: 148px;
+    Font-size: 9.25rem;
     letter-spacing: 0%;
     /* Align: Align left; */                                          
 }
@@ -150,7 +150,7 @@ nav ul{
 .extrah1{
     color: rgb(250, 250, 249);
     font-family: Inter;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 900;
     line-height: 24px;
     letter-spacing: 0.3px;
@@ -168,7 +168,7 @@ nav ul{
 .extrah2{
     color: rgb(255, 255, 255);
     font-family: Inter;
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: 900;
     line-height: 40px;
     letter-spacing: 1px;
@@ -177,7 +177,7 @@ nav ul{
 .extrap2{
     color: rgba(255, 255, 255, 0.65);
     font-family: Inter;
-    font-size: 13px;
+    font-size: 0.8rem;
     font-weight: 400;
     line-height: 20px;
     margin-top: 5px;
@@ -608,16 +608,21 @@ select.input-box {
     body{
         background-color: rgb(23, 21, 21);
         margin-left: 20px ;
-        margin-right: 20px; 
+        margin-right: 0px; 
     }
     nav ul{
         display: none;   
     }
     .page1{
+        width: auto;
         margin-top: 40px;
-        display: flex;
         flex-direction: column;
-        align-items: center;
+    }
+    .p1h1{
+        font-size: 3rem;
+    }
+    .p1text{
+        width: auto;
     }
     .exter1{
         height: auto;
@@ -626,8 +631,12 @@ select.input-box {
     }
     .exter2{
         height: auto;
-        margin-left: 253px;
+        width: auto;
+        margin-left:193px;
         margin-top: -289px;
+    }
+    .extrah2{
+        font-size: 1.5rem;
     }
     .cardcontainer{
         margin-top: 54px;
@@ -647,13 +656,28 @@ select.input-box {
         width: auto;
     }
     .runtextdiv{
-        padding: 10px;
+        padding: 0px;
+    }
+    .runh1{
+        font-size: 2.3rem;
+    }
+    .runimg{
+        width: 260px;
+        height: auto;
+    }
+    .teamimg{
+        height: auto;
     }
     .bmicontainer{
         flex-direction: column;
-        margin-left: -20px;
-        margin-right: -20px;
+        /* margin-left: -20px;
+        margin-right: -20px; */
         gap: 30px;
+        margin-left: 0px ;
+        /* margin-top: 57px; */
+        margin-right: -0px;
+        padding: 30px;
+        align-items: flex-start;
     }
     .bmisection{
         margin-left: auto;
@@ -664,11 +688,25 @@ select.input-box {
     .bmitable{
         margin-left: 0px ;
     }
-    .bmicalc{
-        margin-right: 0px;
+    .bmicalc,.input-row,.input-box,.calcp{
+        width: auto;
     }
-    .bmitable{
-        margin-left: -180px ;
+    .input-row{
+        margin-top: 30px;
+        width: 300px;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .input-box:last-child {
+        grid-column: span 1;
+    }
+    .bmip{
+        font-size: 1.1rem;
+    }
+    .form-container{
+        margin: 0px;
+    }
+    .formaction{
+        width: 200px;
     }
     .teamimgcontainer{
         grid-template-columns: repeat(1, 1fr);
@@ -689,9 +727,16 @@ select.input-box {
         margin-bottom: 30px;
     }
     .footerbox2,.footerbox3{
-        margin-right: 220px;
+        /* margin-right: 220px; */
+        margin-left: -90px;
+        margin-top: 10px;
     }
     .lastfooter{
         text-align: left;
+        width: auto;
+    }
+    .p1btn1,.p1btn2,.runbtn{
+        width: auto;
+      
     }
 }
